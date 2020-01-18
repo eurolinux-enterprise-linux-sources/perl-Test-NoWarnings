@@ -1,6 +1,6 @@
 Name:           perl-Test-NoWarnings
 Version:        1.04
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Make sure you didn't emit any warnings while testing
 License:        LGPLv2+
 Group:          Development/Libraries
@@ -47,6 +47,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-2
+- Mass rebuild 2013-12-27
+
 * Sat Jan 05 2013 Iain Arnell <iarnell@gmail.com> 1.04-1
 - update to latest upstream version
 - clean up spec for modern rpmbuild
